@@ -39,7 +39,7 @@
     </div>
 
     <footer data-role="footer" class="tuts">
-      <h4> Be Happy <button><a href="http://greenido.wordpress.com/" target="_blank">@greenido</a></button> </h4>
+      <h4> Comments? Please use<a href="http://greenido.wordpress.com/" target="_blank" data-role="button">@greenido</a> </h4>
       
     </footer>
 
