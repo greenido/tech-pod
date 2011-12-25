@@ -1,0 +1,8 @@
+Simple example to a mobile web app that let users read nad listen to tech podcasts like: javaposse, 37 signals, twit and others.
+Comments are most welcome...
+
+TODO:
+1. Use a better lib to the audio tag - let the user save the episode and listen to it in offline mode.
+2. Let the user define/grep podcasts from iTune (or other sources).
+3. Improve the UX and wrap this view using phoneGap.
+ 
