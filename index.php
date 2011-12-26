@@ -3,12 +3,9 @@
   <div data-role="page">
     <header data-role="header" data-position="fixed">
       <h1>
-        
-          <img src="img/main-logo.png" alt="main logo" />
-         
+        <img src="img/main-logo.png" alt="main logo" />
       </h1>
     </header>
-    <!-- /header -->
 
     <div data-role="content">
       <ul data-role="listview" data-theme="c" data-dividertheme="d" data-counttheme="e">
@@ -27,8 +24,8 @@
           <a href="site.php?siteName=twit"> <img src="img/twit-logo.png" alt="twit" class="ui-li-icon" />
             TWIT - Tech podcast</a>
         </li>
-        
-        
+
+
         <li>
           <a href="site.php?siteName=nettuts"> <img src="img/net-tuts.png" alt="nettuts+" class="ui-li-icon" />
             Nettuts - Web development</a>
@@ -38,15 +35,15 @@
             <img src="img/radio25.png" alt="se" class="ui-li-icon" />
             Se Radio - Software Engineering </a>
         </li>
-        
+
         <li>
           <a href="site.php?siteName=reversim">
             <img src="img/rev.png" alt="se" class="ui-li-icon" />
             Reversim - Tech & software in hebrew</a>
         </li>
       </ul>
-      
-      
+
+
     </div>
 
     <footer data-role="footer" data-position="fixed">
