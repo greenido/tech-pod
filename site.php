@@ -8,6 +8,7 @@ $siteList = array(
     'twit'      => 'http://twit.tv/node/feed',
     '37'        => 'http://feeds.feedburner.com/37signals_podcast',
     'se'        => 'http://feeds.feedburner.com/se-radio',
+    'reversim'  => 'http://feeds.feedburner.com/reversim',
     'nettuts'   => 'http://feeds.feedburner.com/nettuts'
 );
 

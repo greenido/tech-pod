@@ -27,20 +27,26 @@
           <a href="site.php?siteName=twit"> <img src="img/twit-logo.png" alt="twit" class="ui-li-icon" />
             TWIT - Tech podcast</a>
         </li>
+        
+        
         <li>
-
-
-
           <a href="site.php?siteName=nettuts"> <img src="img/net-tuts.png" alt="nettuts+" class="ui-li-icon" />
             Nettuts - Web development</a>
-
         </li>
         <li>
           <a href="site.php?siteName=se">
             <img src="img/radio25.png" alt="se" class="ui-li-icon" />
             Se Radio - Software Engineering </a>
         </li>
+        
+        <li>
+          <a href="site.php?siteName=reversim">
+            <img src="img/rev.png" alt="se" class="ui-li-icon" />
+            Reversim - Tech & software in hebrew</a>
+        </li>
       </ul>
+      
+      
     </div>
 
     <footer data-role="footer" data-position="fixed">
