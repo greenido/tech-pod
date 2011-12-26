@@ -3,7 +3,7 @@
 
 <div data-role="page">
   
-   <div data-role="header" data-add-back-btn="true" class="<?php echo $siteName; ?>">
+   <div data-role="header" data-add-back-btn="true" data-position="fixed">
       <h1> <?php echo ucwords($siteName); ?></h1>
    </div><!-- /header -->
 

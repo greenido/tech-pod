@@ -1,9 +1,9 @@
 <?php include('includes/header.php'); ?> 
 <body>
   <div data-role="page">
-    <header data-role="header" data-add-back-btn="true" >
+    <header data-role="header" data-position="fixed">
       <h1>
-        <img src="img/main-logo.png" alt="main logo" />
+        <img src="img/main-logo.png" alt="main logo" />Tech Pod
       </h1>
     </header>
     <!-- /header -->
