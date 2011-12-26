@@ -9,11 +9,19 @@
 
     <div data-role="content">	
       <h1> <?php echo $feed->title; ?> </h1>
-      <h2>Listen <audio controls="controls">
-
+      
+      <?php 
+         if (isset ($feed->enclosure)) {
+      ?>
+      <h2>Listen <audio controls='controls'>
           <source src="<?php echo $feed->enclosure->url ?>" type="audio/mp3" />
           Opps... Your browser does not support the audio tag... maybe, it's time for Android/iOS device?
-        </audio></h2>
+        </audio>
+      </h2>
+      <?php
+         }
+      ?>
+    
       <div> <?php echo $feed->description; ?> </div>
     </div><!-- /content -->
 

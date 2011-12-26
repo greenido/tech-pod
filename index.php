@@ -13,27 +13,30 @@
         <li>
 
           <a href="site.php?siteName=javaposse"><img src="img/javaposse-logo.jpg" alt="javaposse" class="ui-li-icon" />
-            JavaPosse </a>
+            JavaPosse - The #1 Java Technology podcast</a>
         </li>
         <li>
 
           <a href="site.php?siteName=37"> <img src="img/logo_37.png" alt="37 signals" class="ui-li-icon" />
-            37 Signals </a>
+            37 Signals - Design, Biz and Development </a>
         </li>
         <li>
 
           <a href="site.php?siteName=twit"> <img src="img/twit-logo.png" alt="twit" class="ui-li-icon" />
-            TWIT </a>
+            TWIT - Tech podcast</a>
         </li>
         <li>
-
-          <a href="site.php?siteName=nettuts"> <img src="img/TLogo.jpg" alt="nettuts+" class="ui-li-icon" />
-            Nettuts </a>
+          
+          
+            
+          <a href="site.php?siteName=nettuts"> <img src="img/net-tuts.png" alt="nettuts+" class="ui-li-icon" />
+            Nettuts - Web development</a>
+          
         </li>
         <li>
           <a href="site.php?siteName=se">
-            <img src="img/wdLogo.jpg" alt="se" class="ui-li-icon" />
-            Se Radio </a>
+            <img src="img/radio25.png" alt="se" class="ui-li-icon" />
+            Se Radio - Software Engineering </a>
         </li>
       </ul>
     </div>

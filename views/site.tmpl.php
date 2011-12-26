@@ -16,9 +16,11 @@
                   <a href="article.php?curSite=<?php echo $curSite;?>&origLink=<?php echo urlencode($item->link);?>&siteName=<?php echo $siteName; ?>">
                  <?php echo $item->title; ?>
                  </a>
-                 
-                 
-                 <a href="<?php echo ($item->enclosure->url); //urlencode?>" rel="external" >Listen</a>
+                 <?php 
+                 if (isset ($item->enclosure)) {
+                   echo "<a href='" . ($item->enclosure->url) . "' rel='external' >Listen</a>";
+                 }
+                 ?>
            </li>
 
       <?php  } ?>
