@@ -41,7 +41,7 @@
       </ul>
     </div>
 
-    <footer data-role="footer" class="tuts">
+    <footer data-role="footer" data-position="fixed">
       <h4> Comments? Please use<a href="http://greenido.wordpress.com/" target="_blank" data-role="button">@greenido</a> </h4>
       
     </footer>

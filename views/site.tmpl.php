@@ -27,7 +27,7 @@
       </ul>
    </div><!-- /content -->
 
-   <footer data-role="footer" class="<?php echo $siteName; ?>">
+   <footer data-role="footer" data-position="fixed">
      <h2><a href="index.php" data-icon="home" data-role="button">Home</a> </h2>
    </footer>
 </div><!-- /page -->
