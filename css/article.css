@@ -196,4 +196,8 @@ img {
 .tutorial_image img { 
    max-width: 90%; 
 }
+
+/*
 p { font-size: 20px; line-height: 1.5em; }
+*/
+.javaposse { background: #c24e00; }

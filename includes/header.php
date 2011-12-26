@@ -11,7 +11,6 @@
     <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
 
     <link rel="apple-touch-icon" href="img/news57.png" />
-    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/article.css" />
 
 
