@@ -51,11 +51,11 @@
 
     <footer data-role="footer" data-position="fixed">
       <h4> Comments? Please use<a href="http://greenido.wordpress.com/" target="_blank" data-role="button">@greenido</a> </h4>
-
     </footer>
 
   </div>
   <!-- /page -->
+  <?php include('includes/footer.php'); ?> 
 </body>
 </html>
 

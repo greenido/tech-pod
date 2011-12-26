@@ -9,19 +9,19 @@
 
     <div data-role="content">	
       <h1> <?php echo $feed->title; ?> </h1>
-      
-      <?php 
-         if (isset ($feed->enclosure)) {
-      ?>
-      <h2>Listen <audio controls='controls'>
-          <source src="<?php echo $feed->enclosure->url ?>" type="audio/mp3" />
-          Opps... Your browser does not support the audio tag... maybe, it's time for Android/iOS device?
-        </audio>
-      </h2>
+
       <?php
-         }
+      if (isset($feed->enclosure)) {
+        ?>
+        <h2>Listen <audio controls='controls'>
+            <source src="<?php echo $feed->enclosure->url ?>" type="audio/mp3" />
+            Opps... Your browser does not support the audio tag... maybe, it's time for Android/iOS device?
+          </audio>
+        </h2>
+        <?php
+      }
       ?>
-    
+
       <div> <?php echo $feed->description; ?> </div>
     </div><!-- /content -->
 
@@ -31,11 +31,10 @@
     </footer>
   </div><!-- /page -->
 
-
   <script>
     $('img, embed, object').removeAttr('height').removeAttr('width');
   </script>
-
+  <?php include('includes/footer.php'); ?> 
 </body>
 </html>
 
