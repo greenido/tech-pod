@@ -3,10 +3,9 @@
   <div data-role="page">
     <header data-role="header" data-position="fixed">
       <h1>
-        <div id="head">
+        
           <img src="img/main-logo.png" alt="main logo" />
-          <span>Tech Pod</span>
-        </div>
+         
       </h1>
     </header>
     <!-- /header -->
