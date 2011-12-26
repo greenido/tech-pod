@@ -3,7 +3,10 @@
   <div data-role="page">
     <header data-role="header" data-position="fixed">
       <h1>
-        <img src="img/main-logo.png" alt="main logo" />Tech Pod
+        <div id="head">
+          <img src="img/main-logo.png" alt="main logo" />
+          <span>Tech Pod</span>
+        </div>
       </h1>
     </header>
     <!-- /header -->
@@ -26,12 +29,12 @@
             TWIT - Tech podcast</a>
         </li>
         <li>
-          
-          
-            
+
+
+
           <a href="site.php?siteName=nettuts"> <img src="img/net-tuts.png" alt="nettuts+" class="ui-li-icon" />
             Nettuts - Web development</a>
-          
+
         </li>
         <li>
           <a href="site.php?siteName=se">
@@ -43,7 +46,7 @@
 
     <footer data-role="footer" data-position="fixed">
       <h4> Comments? Please use<a href="http://greenido.wordpress.com/" target="_blank" data-role="button">@greenido</a> </h4>
-      
+
     </footer>
 
   </div>

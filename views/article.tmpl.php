@@ -1,9 +1,9 @@
 <?php include('includes/header.php'); ?>
 <body> 
 
-  <div data-role="page">
+  <div data-role="page" data-add-back-btn="true">
 
-    <header data-role="header" data-add-back-btn="true" data-position="fixed">
+    <header data-role="header"  data-position="fixed">
       <h1><?php echo ucWords($siteName); ?> </h1>
     </header><!-- /header -->
 
